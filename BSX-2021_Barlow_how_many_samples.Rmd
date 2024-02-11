@@ -64,7 +64,7 @@ nreps = 100
 
 # here I am just making an empty plot with sensible axes and labels
 plot(1, type="n", xlim=c(0, 3), ylim=c(8, 11),
-     xlab="species", ylab="snout-vent length (cm)",
+     xlab="population", ylab="snout-vent length (cm)",
      axes=FALSE
 )
 
@@ -74,8 +74,8 @@ axis(2)
 # here is the loop to repeat the analysis for nreps
 for (i in 1:nreps) {
 
-  # take nsamps from a normal distribution centred on true mean
-  lizA <- rnorm(nsamp, meanA, stdev)
+	# take nsamps from a normal distribution centred on true mean
+	lizA <- rnorm(nsamp, meanA, stdev)
 	lizB <- rnorm(nsamp, meanB, stdev)
 
 	# add sample means to plot
