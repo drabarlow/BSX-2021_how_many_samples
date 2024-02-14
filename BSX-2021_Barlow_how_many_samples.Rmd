@@ -33,7 +33,7 @@ Your revision materials for this lecture are:
 
 We will consider a simple experiment based around the common lizard, *Zootoca vivipara* (Fig. 1).
 
-```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap="**Figure 1. *Zootoca vivipara*.	Jörg Hempel CC BY-SA 3.0 DE Deed**"}
+```{r, out.width = "50%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap="**Figure 1. *Zootoca vivipara*.	Jörg Hempel CC BY-SA 3.0 DE Deed**"}
 include_graphics("./1280px-Zootoca_vivipara_LC0273.jpg")
 ```
 
