@@ -1,7 +1,7 @@
 # Script for carrying out power analysis for the lizard experiment
 
 # declare variables
-nsamp = 10
+nsamp = 30
 meanA = 10
 meanB = 9
 stdev = 1
